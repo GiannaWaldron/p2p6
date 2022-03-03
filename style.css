@@ -34,6 +34,9 @@ h1 {
   max-inline-size: 15ch;
   margin: auto;
 }
+h6:hover{
+  filter: blur(30px);
+}
 h6 {
     font-family: system-ui;
     font-size: 75px;
