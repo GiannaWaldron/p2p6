@@ -1,19 +1,19 @@
 article {
-  background: radial-gradient(
+  background: lgradient(
     hsl(346 71.4% 60.2%),
     hsl(0 34.5% 45.5%), 
     hsl(346 96.2% 31.2%),
     hsl(346 95.6% 17.6%) 
-  ) fixed;
+  );
   -webkit-background-clip: text;
+  -webkit-box-decoration-break: clone;
   -webkit-text-fill-color: transparent;
   text-align: center;
-  display: block;
 } 
 
 body {
   background: hsl(346 93.9% 6.5%);
-  color: white;
+  color: transparent;
   min-block-size: 200vh;
   min-inline-size: 100%;
   padding: 5vmin;
@@ -34,9 +34,7 @@ h1 {
   max-inline-size: 15ch;
   margin: auto;
 }
-h6:hover{
-  filter: blur(30px);
-}
+
 h6 {
     font-family: system-ui;
     font-size: 75px;
